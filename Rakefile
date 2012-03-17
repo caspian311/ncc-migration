@@ -5,7 +5,7 @@ end
 
 desc "pull all data from all pages"
 task :download do
-   NccScraper.scrape_site
+   NccScraper.new.scrape_site
 end
 
 desc "upload all data to new site"
