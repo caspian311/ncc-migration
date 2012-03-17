@@ -1,11 +1,6 @@
 
-Dir["lib/*.rb"].each do |file|
-   import file
-end
-
-desc "test app"
-task :test do
-   
+Dir["./lib/*.rb"].each do |file|
+   require file
 end
 
 desc "pull all data from all pages"
@@ -19,4 +14,8 @@ task :upload do
 end
 
 desc "run all tests"
+task :test do
+   sh "rspec spec/*_spec.rb"
+end
+
 task :default => :test
