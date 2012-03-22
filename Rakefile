@@ -1,3 +1,6 @@
+require "rake/clean"
+
+CLEAN = FileList["./mp3s/*"].include("sermons.txt")
 
 Dir["./lib/*.rb"].each do |file|
    require file
@@ -18,4 +21,4 @@ task :test do
    sh "rspec spec/*_spec.rb"
 end
 
-task :default => :test
+task :default => [:clean, :download]
