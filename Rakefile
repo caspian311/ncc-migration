@@ -8,7 +8,7 @@ end
 
 desc "pull all data from all pages"
 task :download do
-   NccScraper.new.scrape_site
+   NccScraper.new.scrape_site "/site/cpage.asp?sec_id=1673&cpage_id=1982"
 end
 
 desc "upload all data to new site"
