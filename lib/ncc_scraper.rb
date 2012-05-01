@@ -33,12 +33,17 @@ class NccScraper
             author = meta_data[1].strip
             verse = meta_data[2].strip
             date = meta_data[3].strip
-            description = "something"
+
+            find(:css, "div.audioInfo").click
+            description = find(:css, "#audioDescription").text.strip
+
             link = find(:css, "#audioDownload a")[:href]
+            link.gsub!(" ", "%20")
 
             File.open('sermons.txt', 'a') do |file|
                file.puts "#{@id}\t#{title}\t#{author}\t#{verse}\t#{date}\t#{description}\t#{link}"
             end
+
             system "wget -O mp3s/#{@id}.mp3 #{link}"
          end
       end
