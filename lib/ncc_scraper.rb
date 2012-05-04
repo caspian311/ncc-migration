@@ -29,7 +29,7 @@ class NccScraper
    end
 
    def download_content
-      all(:xpath, content_xpath).each do |div|
+      all(:xpath, "//div[@class='audioInfo']").each do |div|
          @@id = @@id + 1
          within(div) do
             meta_data = all(:xpath, "/div").text.each_line.to_a
@@ -67,10 +67,6 @@ class NccScraper
 
    def sermon_file
       @is_youth ? YOUTH_SERMON_FILE : SERMON_FILE 
-   end
-
-   def content_xpath
-      @is_youth ?  "//div[@class='audioInfo']" : "//div[contains(@id, 'audioRecordaudio')]" 
    end
 
    def initial_page
