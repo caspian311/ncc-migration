@@ -1,14 +1,14 @@
 require "capybara/rspec"
-APP_HOST = "http://www.ncc-stl.org/"
 include Capybara::DSL
+
+APP_HOST = "http://www.ncc-stl.org/"
+SERMON_FILE="sermons.txt"
+YOUTH_SERMON_FILE="youth_sermons.txt"
 
 Capybara.current_driver = :selenium
 Capybara.app_host = APP_HOST
 Capybara.run_server = false 
 Capybara.default_selector = :css 
-
-SERMON_FILE="sermons.txt"
-YOUTH_SERMON_FILE="youth_sermons.txt"
 
 class NccScraper
    @@id = 0
@@ -34,10 +34,10 @@ class NccScraper
          within(div) do
             meta_data = all(:xpath, "/div").text.each_line.to_a
 
-            title = meta_data[0].strip
-            author = meta_data[1].strip
-            verse = meta_data[2].strip
-            date = meta_data[3].strip
+            title = strip_if_not_empty meta_data[0]
+            author = strip_if_not_empty meta_data[1]
+            verse = strip_if_not_empty meta_data[2]
+            date = strip_if_not_empty meta_data[3]
 
             description = ""
             if not @is_youth
@@ -52,14 +52,17 @@ class NccScraper
             end
             link.gsub!(" ", "%20")
 
-            # puts "#{@@id}\t#{title}\t#{author}\t#{verse}\t#{date}\t#{description}\t#{link}"
             File.open(sermon_file, 'a') do |file|
-               file.puts "#{@@id}\t#{title}\t#{author}\t#{verse}\t#{date}\t#{description}\t#{link}"
-            end
+                file.puts "#{@@id}\t#{title}\t#{author}\t#{verse}\t#{date}\t#{description}\t#{link}"
+             end
 
             system "wget -O mp3s/#{@id}.mp3 #{link}"
          end
       end
+   end
+
+   def strip_if_not_empty(value)
+      value == nil ? "" : value.strip
    end
 
    def sermon_file
@@ -67,7 +70,7 @@ class NccScraper
    end
 
    def content_xpath
-      @is_youth ?  "//div/div/div/div/div[2]" : "//div[contains(@id, 'audioRecordaudio')]" 
+      @is_youth ?  "//div[@class='audioInfo']" : "//div[contains(@id, 'audioRecordaudio')]" 
    end
 
    def initial_page
