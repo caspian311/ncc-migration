@@ -1,10 +1,10 @@
 require "rake/clean"
 
-CLEAN = FileList["./mp3s/*"].include(NccScraper.SERMON_FILE).include(NccScraper.YOUTH_SERMON_FILE)
-
 Dir["./lib/*.rb"].each do |file|
    require file
 end
+
+CLEAN = FileList["./mp3s/*"].include(SERMON_FILE).include(YOUTH_SERMON_FILE)
 
 desc "pull all data from both the main site and the you site"
 task :download => ["download:main", "download:youth"] 
