@@ -1,7 +1,7 @@
 require "capybara/rspec"
 include Capybara::DSL
 
-APP_HOST = "http://www.ncc-stl.org/"
+APP_HOST = "http://www.ncc-stl.org"
 SERMON_FILE="sermons.txt"
 YOUTH_SERMON_FILE="youth_sermons.txt"
 
@@ -29,36 +29,46 @@ class NccScraper
    end
 
    def download_content
-      all(:xpath, "//div[@class='audioInfo']").each do |div|
+      all(:xpath, "//div[contains(@id, 'audioRecord')]").each do |audioRecord|
          @@id = @@id + 1
-         within(div) do
-            meta_data = all(:xpath, "/div").text.each_line.to_a
 
+         within(audioRecord) do
+
+            line = ""
+
+            audio_info = find(:css, "div.audioInfo")
+            audio_info.click
+
+            meta_data = all(:xpath, "/div/div").text.each_line.to_a
             title = strip_if_not_empty meta_data[0]
             author = strip_if_not_empty meta_data[1]
             verse = strip_if_not_empty meta_data[2]
             date = strip_if_not_empty meta_data[3]
 
+            line = "#{@@id}\t#{title}\t#{author}\t#{verse}\t#{date}"
+
             description = ""
             if not @is_youth
-               find(:css, "div.audioInfo").click
-               description = find(:css, "#audioDescription").text.strip
+               description = find(:xpath, "//div[@id='audioDescription']").text.strip
             end
+            line += "\t#{description}"
 
-            if @is_youth
-               link = find(:xpath, "//div[@id='audioDownload']/a[1]")[:href]
-            else
-               link = find(:css, "#audioDownload a")[:href]
-            end
-            link.gsub!(" ", "%20")
+            link = find(:css, "div#audioDownload a")[:href]
+            line += "#{link}"
 
             File.open(sermon_file, 'a') do |file|
-                file.puts "#{@@id}\t#{title}\t#{author}\t#{verse}\t#{date}\t#{description}\t#{link}"
+                file.puts line
+                puts line
              end
 
-            system "wget -O mp3s/#{@id}.mp3 #{link}"
+             puts "downloading... '#{link}'"
+             system "wget -O #{audio_directory}/#{@@id}.mp3 #{link}"
          end
       end
+   end
+
+   def audio_directory
+      @is_youth ? "youth_mp3s" : "main_mp3s"
    end
 
    def strip_if_not_empty(value)
