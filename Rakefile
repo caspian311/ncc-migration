@@ -22,3 +22,13 @@ namespace :download do
 end
 
 task :default => [:clean, :download]
+
+desc "pull all data from both the main site and the you site"
+task :populate => ["populate:main"] 
+
+namespace :populate do
+   desc "populate all data for new site"
+   task :main do
+      NccSermonMaker.new(false).make_sermons
+   end
+end
