@@ -21,7 +21,23 @@ class NccSermonMaker
       publish_sermons
    end
 
+   def remove_sermons
+      login
+
+      remove_all_sermons
+   end
+
    private
+
+   def remove_all_sermons
+      visit "/admin/sermons"
+
+      while item = find("a.delete")
+         item.click
+
+         click_link "Delete"
+      end
+   end
 
    def publish_sermons
       all_sermons do |sermon|      

@@ -31,4 +31,9 @@ namespace :populate do
    task :main do
       NccSermonMaker.new(false).make_sermons
    end
+
+   desc "remove all data from new site"
+   task :undo do
+      NccSermonMaker.new(false).remove_sermons
+   end
 end
