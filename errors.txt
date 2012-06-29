@@ -1,0 +1,204 @@
+****************************************************
+Error: could not find audio file: A Survival Guide for Spiritual Warefare - 1-8-2006
+cannot select option, no option with text 'A Survival Guide for Spiritual Warefare - 1-8-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: How to Pray for the Saints and not to the Saints Part 3 - 4-2-2006
+cannot select option, no option with text 'How to Pray for the Saints and not to the Saints Part 3 - 4-2-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Honoring Mom and Dad Pt.2 - unknown_date
+cannot select option, no option with text 'Honoring Mom and Dad Pt.2 - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Effectual Call and Regeneration - 10-30-2005
+cannot select option, no option with text 'Effectual Call and Regeneration - 10-30-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Unconditional Election - unknown_date
+cannot select option, no option with text 'Unconditional Election - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: He is Able! - 1-17-2006
+cannot select option, no option with text 'He is Able! - 1-17-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Core Confession of the Christian Faith - 8-23-2009
+cannot select option, no option with text 'The Core Confession of the Christian Faith - 8-23-2009' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: You Shall Not Steal - unknown_date
+cannot select option, no option with text 'You Shall Not Steal - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: God's Vision for Your Family - 8-26-2007
+cannot select option, no option with text 'God's Vision for Your Family - 8-26-2007' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Invincible Kingdom and the Mutiny of Man Part 2 - 6-4-2006
+cannot select option, no option with text 'The Invincible Kingdom and the Mutiny of Man Part 2 - 6-4-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: What Did Mary Know - 12-18-2011
+cannot select option, no option with text 'What Did Mary Know - 12-18-2011' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Avoid at All Costs - 8-14-2005
+cannot select option, no option with text 'Avoid at All Costs - 8-14-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Total Inability - unknown_date
+cannot select option, no option with text 'Total Inability - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: A Different Kind of Leadership - 1-30-2005
+cannot select option, no option with text 'A Different Kind of Leadership - 1-30-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Emerging Victorious When Surrounded by Enemies - 6-11-2006
+cannot select option, no option with text 'Emerging Victorious When Surrounded by Enemies - 6-11-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Sanctity of Life - unknown_date
+cannot select option, no option with text 'The Sanctity of Life - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: For the Glory of the Lord - 6-7-2009
+cannot select option, no option with text 'For the Glory of the Lord - 6-7-2009' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: A Different Kind of Leadership - 1-29-2006
+cannot select option, no option with text 'A Different Kind of Leadership - 1-29-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Leadership in the Church (Part 4) - 4-18-2010
+cannot select option, no option with text 'Leadership in the Church (Part 4) - 4-18-2010' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Question and Answer - 11-6-2005
+cannot select option, no option with text 'Question and Answer - 11-6-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Transition into a New Era - 12-4-2005
+cannot select option, no option with text 'Transition into a New Era - 12-4-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Nature of the Atonement - unknown_date
+cannot select option, no option with text 'The Nature of the Atonement - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: How to Be a Godly Woman in an Ungodly World - 5-14-2006
+cannot select option, no option with text 'How to Be a Godly Woman in an Ungodly World - 5-14-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Our Way Out - 7-18-2010
+cannot select option, no option with text 'Our Way Out - 7-18-2010' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Recipe for Serenity in the Storms of Life - 5-7-2006
+cannot select option, no option with text 'Recipe for Serenity in the Storms of Life - 5-7-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Knowing and Doing God's Will - 11-2-2005
+cannot select option, no option with text 'Knowing and Doing God's Will - 11-2-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Why the Resurrection Matters. - 4-16-2006
+cannot select option, no option with text 'Why the Resurrection Matters. - 4-16-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Ilustrations of the Spiritual Bankruptcy of False Teachers - 12-18-2005
+cannot select option, no option with text 'Ilustrations of the Spiritual Bankruptcy of False Teachers - 12-18-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Whose Child Are You Part 2 - 5-11-2008
+cannot select option, no option with text 'Whose Child Are You Part 2 - 5-11-2008' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Messiahs, Divine Healers, Prosperity Gurus, Self Help Coaches, & Church Growth Experts - 9-20-2009
+cannot select option, no option with text 'Messiahs, Divine Healers, Prosperity Gurus, Self Help Coaches, & Church Growth Experts - 9-20-2009' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Ongoing Battle Against Spiritual Terrorism - 11-13-2005
+cannot select option, no option with text 'The Ongoing Battle Against Spiritual Terrorism - 11-13-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: What Amazed Our Lord - 6-17-2007
+cannot select option, no option with text 'What Amazed Our Lord - 6-17-2007' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: A Year of the Word - 1-1-2006
+cannot select option, no option with text 'A Year of the Word - 1-1-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: A Passion for Israel - 1-31-2010
+cannot select option, no option with text 'A Passion for Israel - 1-31-2010' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Some Insights From the Bible for Missionaries - 5-31-2009
+cannot select option, no option with text 'Some Insights From the Bible for Missionaries - 5-31-2009' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: How in the World Can I Be Holy pt.1 - unknown_date
+cannot select option, no option with text 'How in the World Can I Be Holy pt.1 - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Why You Are Significant - 7-9-2006
+cannot select option, no option with text 'Why You Are Significant - 7-9-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: How to Pray for the Saints not to the Saints - 3-19-2006
+cannot select option, no option with text 'How to Pray for the Saints not to the Saints - 3-19-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Honoring Mom and Dad Pt.1 - unknown_date
+cannot select option, no option with text 'Honoring Mom and Dad Pt.1 - unknown_date' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Leadership in the Church (Part 1) - 3-14-2010
+cannot select option, no option with text 'Leadership in the Church (Part 1) - 3-14-2010' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Sanctity of Truth - 10-23-2005
+cannot select option, no option with text 'The Sanctity of Truth - 10-23-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Spiritual Discpline of Prayer Pt.4 - 2-26-2006
+cannot select option, no option with text 'The Spiritual Discpline of Prayer Pt.4 - 2-26-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Wisdom of God Revealed on the Cross - 5-24-2009
+cannot select option, no option with text 'The Wisdom of God Revealed on the Cross - 5-24-2009' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Praying for the Saints, not to the Saints pt.2 - 3-26-2006
+cannot select option, no option with text 'Praying for the Saints, not to the Saints pt.2 - 3-26-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Spiritual Discipline of Prayer Pt.1 - 2-5-2006
+cannot select option, no option with text 'The Spiritual Discipline of Prayer Pt.1 - 2-5-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Source of Joy and the Crown of Glory for the Preachers of the World Part 3 - 12-17-2006
+cannot select option, no option with text 'The Source of Joy and the Crown of Glory for the Preachers of the World Part 3 - 12-17-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Spiritual Discpline of Prayer Pt.5 - 3-5-2006
+cannot select option, no option with text 'The Spiritual Discpline of Prayer Pt.5 - 3-5-2006' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Mini Messiahs (Part 2) - 9-27-2009
+cannot select option, no option with text 'Mini Messiahs (Part 2) - 9-27-2009' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Church Leadership by the Book Part 1 - 2-6-2011
+cannot select option, no option with text 'Church Leadership by the Book Part 1 - 2-6-2011' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Bring It On, Lord! - 12-4-2005
+cannot select option, no option with text 'Bring It On, Lord! - 12-4-2005' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: The Invincible Kingdom and the Mutiny of Man - 5-21-2006
+cannot select option, no option with text 'The Invincible Kingdom and the Mutiny of Man - 5-21-2006' in select box 'audio'
+****************************************************
