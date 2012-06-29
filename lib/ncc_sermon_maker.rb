@@ -55,6 +55,8 @@ class NccSermonMaker
             select sermon.speaker, :from => "speaker"
 
             click_button "Publish Sermon"
+
+            puts "Successfully processed: #{sermon.file_name}"
          rescue Exception => e
             puts "****************************************************"
             puts "Error: could not find audio file: #{sermon.file_name}"
@@ -65,8 +67,8 @@ class NccSermonMaker
    end
 
    def all_sermons
-      Dir.glob("youth_mp3s/*.mp3") do |filename|
-         filename[/youth_mp3s\//] = ""
+      Dir.glob("equip_mp3s/*.mp3") do |filename|
+         filename[/equip_mp3s\//] = ""
          yield parse_sermon(filename)
       end
    end
@@ -74,16 +76,16 @@ class NccSermonMaker
    def parse_sermon(filename)
       sermon = Sermon.new
 
-      filename =~ /^(.*) - (.*)\.mp3$/
+      filename =~ /^(.*) - (.*) -- (.*)\.mp3$/
       sermon.title = $1
       if $2 != "unknown_date"
          timestamp = Date.strptime $2, "%m-%d-%Y"
          sermon.date = timestamp.strftime "%m/%d/%Y"
       end
 
-      sermon.file_name = "#{$1} - #{$2}"
-      sermon.category = "Ascend - Youth Ministry"
-      sermon.speaker = "Jeremiah Kirberg"
+      sermon.speaker = $3
+      sermon.file_name = "#{$1} - #{$2} -- #{$3}"
+      sermon.category = "Equip - Sunday Morning Educational Hour"
 
       sermon
    end
@@ -99,7 +101,7 @@ class NccSermonMaker
       visit "/login"
 
       fill_in "login", :with => "mtodd"
-      fill_in "password", :with => "Matt2012Todd"
+      fill_in "password", :with => "************"
       
       find("input.login").click
    end

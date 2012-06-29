@@ -202,3 +202,89 @@ cannot select option, no option with text 'Bring It On, Lord! - 12-4-2005' in se
 Error: could not find audio file: The Invincible Kingdom and the Mutiny of Man - 5-21-2006
 cannot select option, no option with text 'The Invincible Kingdom and the Mutiny of Man - 5-21-2006' in select box 'audio'
 ****************************************************
+
+
+
+
+
+
+
+
+Successfully processed: Meals, Merging, Missions and Martyrdom - 2-5-2012 -- Jason Alligood
+Successfully processed: Balancing Christian Life Class 6 - unknown_date -- Chuck Lieberman
+Successfully processed: Sovereignty - unknown_date -- Jeremiah Kirberg
+Successfully processed: Teach Them Diligently 3 - 4-15-2012 -- Jason Alligood
+Successfully processed: Consequence, Persecution and Martyrdom - 1-22-2012 -- Jason Alligood
+Successfully processed: Love of God - unknown_date -- Jeremiah Kirberg
+Successfully processed: Goodness of God - unknown_date -- Jeremiah Kirberg
+Successfully processed: A Study of the Pentatueh 9 - 6-3-2012 -- Jason Todd
+Successfully processed: Developing a Theology of Evangelism Class 8 - unknown_date -- Jerry Marshall-Chesley Campbell
+Successfully processed: Balancing Christian Life Class 5 - unknown_date -- Mike Grant
+****************************************************
+Error: could not find audio file: Developing a Theology of Evangelism - Class 2 - unknown_date -- 1-15-2012
+cannot select option, no option with text '1-15-2012' in select box 'speaker'
+****************************************************
+Successfully processed: Spiritual Gifts - He Gave Gifts - 4-8-2012 -- Alan Richardson
+Successfully processed: Teach Them Diligently 2 - 4-8-2012 -- Jason Alligood
+Successfully processed: The Early Church: Acts 3-4 - 1-15-2012 -- Jason Alligood
+Successfully processed: Spiritual Gifts 7 - Gifts and Natural Abilities - unknown_date -- Alan Richardson
+Successfully processed: Developing a Theology of Evangelism Class 5 - unknown_date -- Jerry Marshall-Chesley Campbell
+Successfully processed: A Study of the Pentateuch 2 - 4-8-2012 -- Andy Steele
+Successfully processed: The Early Church: Acts 1-2 - 1-8-2012 -- Jason Alligood
+Successfully processed: Developing a Theology of Evangelism Class 7 - unknown_date -- Jerry Marshall-Chesley Campbell
+Successfully processed: Holiness - unknown_date -- Jeremiah Kirberg
+Successfully processed: Faithfulness - unknown_date -- Jeremiah Kirberg
+Successfully processed: Balancing Christian Life Class 1 - unknown_date -- Chuck Lieberman
+Successfully processed: Immutability - unknown_date -- Jeremiah Kirberg
+Successfully processed: Teach Them Diligently 10 - 6-10-2012 -- Jason Alligood
+****************************************************
+Error: could not find audio file: Spiritual Gifts 3 - Motive Matters Most - Part 1 - 4-15-2012 -- Alan Richardson
+cannot select option, no option with text 'Spiritual Gifts 3 - Motive Matters Most - Part 1 - 4-15-2012 -- Alan Richardson' in select box 'audio'
+****************************************************
+Successfully processed: A Study of the Pentatueh 3 - 4-15-2012 -- Jason Todd
+Successfully processed: Teach Them Diligently 7 - 5-20-2012 -- Jason
+****************************************************
+Error: could not find audio file: A Study of the Pentateuch 1 - 4-1-2012 -- Jason Todd
+cannot select option, no option with text 'A Study of the Pentateuch 1 - 4-1-2012 -- Jason Todd' in select box 'audio'
+****************************************************
+****************************************************
+Error: could not find audio file: Balancing Christian Life Class 4 - unknown_date -- Mike Grant
+cannot select option, no option with text 'Balancing Christian Life Class 4 - unknown_date -- Mike Grant' in select box 'audio'
+****************************************************
+Successfully processed: A Study of the Pentatueh 11 - 6-17-2012 -- Andy Steele
+****************************************************
+Error: could not find audio file: Developing a Theology of Evangelism Class 3 - unknown_date -- Jerry Marshall-Chesley Campbell
+cannot select option, no option with text 'Developing a Theology of Evangelism Class 3 - unknown_date -- Jerry Marshall-Chesley Campbell' in select box 'audio'
+****************************************************
+Successfully processed: Missions and Mayhem - 2-12-2012 -- Jason Alligood
+Successfully processed: The Church Scatters - 1-29-2012 -- Jason Alligood
+Successfully processed: A Study of the Pentatueh 4 - 4-22-2012 -- Andy Steele
+Successfully processed: Spiritual Gifts 4 - Motive Matters Most - Part 2 - unknown_date -- Alan Richardson
+Successfully processed: A Study of the Pentatueh 7 - 5-20-2012 -- Jason Todd
+Successfully processed: Developing a Theology of Evangelism - Class 1 - unknown_date -- Jerry Marshall-Chesley Campbell
+****************************************************
+Error: could not find audio file: Balancing Christian Life Class 2 - 1-15-2012 -- Mike Grant
+cannot select option, no option with text 'Balancing Christian Life Class 2 - 1-15-2012 -- Mike Grant' in select box 'audio'
+****************************************************
+Successfully processed: Developing a Theology of Evangelism Class 6 - unknown_date -- Jerry Marshall-Chesley Campbell
+Successfully processed: Teach Them Diligently 5 - 5-6-2012 -- Jason Alligood
+****************************************************
+Error: could not find audio file: Spiritual Gifts 9 - Ordinary Gifts - unknown_date -- Alan Richardson
+cannot select option, no option with text 'Spiritual Gifts 9 - Ordinary Gifts - unknown_date -- Alan Richardson' in select box 'audio'
+****************************************************
+Successfully processed: Teach Them Diligently 11 - 6-17-2012 -- Jason Alligood
+Successfully processed: Teach Them Diligently 9 - 6-3-2012 -- Jason Alligood
+****************************************************
+Error: could not find audio file: A Study of the Pentatueh 10 - 6-10-2012 -- Jason Todd
+cannot select option, no option with text 'A Study of the Pentatueh 10 - 6-10-2012 -- Jason Todd' in select box 'audio'
+****************************************************
+Successfully processed: Developing a Theology of Evangelism Class 4 - unknown_date -- Jerry Marshall-Chesley Campbell
+Successfully processed: A Study of the Pentatueh 5 - 5-6-2012 -- Jason Todd
+Successfully processed: A Study of the Pentatueh 6 - 5-13-2012 -- Andy Steele
+****************************************************
+Error: could not find audio file: Wisdom - unknown_date -- Jeremiah Kirberg
+cannot select option, no option with text 'Wisdom - unknown_date -- Jeremiah Kirberg' in select box 'audio'
+****************************************************
+Successfully processed: A Study of the Pentatueh 8 - 5-27-2012 -- Andy Steele
+Successfully processed: Teach Them Diligently 1 - 4-1-2012 -- Jason Alligood
+
